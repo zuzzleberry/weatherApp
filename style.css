@@ -23,6 +23,7 @@ body {
     outline: none;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px 20px 0px 0px;
     border-bottom: 3px solid darkorange;
     font-size: 20px;
@@ -32,6 +33,7 @@ body {
 
 #searchbox:focus {
     background-color: rgba(255, 255, 255, 0.6);
+    
 }
 
 #content {
@@ -43,7 +45,7 @@ body {
     padding: 20px 15px;
     border-radius: 0px 0px 20px 20px;
     background-color: rgb(186, 204, 214);
-    
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .infotext {
