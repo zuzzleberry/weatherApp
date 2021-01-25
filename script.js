@@ -1,6 +1,6 @@
 const api = {
     key: "a7e930bb4bcd76678f5598d4bb21d587",
-    base: "http://api.openweathermap.org/data/2.5/"
+    base: "https://api.openweathermap.org/data/2.5/"
 }
 
 // code trying to get user's geolocation
@@ -42,7 +42,7 @@ let displayResults = (weather) => {
     temptext.innerHTML = `${Math.round(weather.main.temp)}°C`;
     cityName.innerHTML = weather.name;
     weatherType.innerHTML = weather.weather[0].main;
-    weatherpic.src = `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`
+    weatherpic.src = `https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`
     
 
     
